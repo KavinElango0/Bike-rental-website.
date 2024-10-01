@@ -1,0 +1,111 @@
+ /* navbar.css */
+ .logo{
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 150%;
+    color: yellow;
+}
+
+.NavbarContainer{
+    width: 100%;
+    display: flex;
+    /* background-color:#333 ; */
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+ul,li{
+    align-items: center;
+    display: flex;
+}
+
+
+/* .NavbarContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+  } */
+
+
+  
+.NavbarLeft .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+  
+ul li {
+    display: inline;
+    margin: 5px 20px;
+    
+}
+  
+  
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+  
+ul li a:hover {
+    color: #ff6347;
+}
+  
+nav {
+    display: flex;
+    gap: 10px;
+}
+  
+.ButtonA, .ButtonB {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.ButtonB {
+    background-color: #555;
+}
+  
+.ButtonB:hover {
+    background-color: #e5533d;
+}
+  
+.ButtonB:hover {
+    background-color: #666;
+}
+  
+.ButtonA a, .ButtonB a {
+    color: white;
+    text-decoration: none;
+}
+  
+.ButtonA a:hover, .ButtonB a:hover {
+    color: white;
+} 
+  
+
+
+  

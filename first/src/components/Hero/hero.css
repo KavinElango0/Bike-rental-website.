@@ -1,0 +1,8 @@
+.Hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(98, 108, 98, 0.7),rgba(8,0,58,0.7)),url('../../assets/wp475.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
